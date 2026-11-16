@@ -100,7 +100,7 @@ I used the same method as my [PC troubleshooting guide](https://github.com/nacht
 | shadPS4 won't open | Missing Visual C++ runtime | Install/repair the VC++ Redistributable |
 | Game doesn't appear in the list | Wrong folder structure or name | Check the folder is named after the Title ID and sits directly in the games directory |
 | Crash on launch | Outdated GPU driver or wrong game version | Update the driver; confirm the update is 1.09 |
-| Low or unstable FPS on strong hardware | GPU not getting full power (cables, power settings) | Check the GPU's power connectors and Windows/NVIDIA power settings. This was the fix on my PC |
+| Low or unstable FPS on strong hardware | GPU not getting full power | Check the GPU's 16-pin power cable is fully seated. This was the fix on my PC. Also check Windows and NVIDIA power settings |
 | Stutter in new areas | Shaders compiling for the first time | Normal on first visit; improves after |
 | Graphical glitches | Emulator bug or setting | Update shadPS4, try default settings, check the [compatibility list](https://github.com/shadps4-compatibility/shadps4-game-compatibility) |
 | Any other issue | Unknown | Read the shadPS4 log file (*Open Folder → Open Log Folder*) for the first error |
@@ -115,7 +115,7 @@ I used the same method as my [PC troubleshooting guide](https://github.com/nacht
 | PC | Ryzen 7 7800X3D, RTX 5070 12 GB, 32 GB DDR5, Windows 11 |
 | Frame rate | **30–60 FPS** |
 
-**Problem I solved:** performance was held back by a **GPU power issue**. I traced it back to the graphics card's power and fixed it, which brought performance to where it should be on an RTX 5070. It was a good reminder to check the hardware basics before blaming the software.
+**Problem I solved:** performance was held back by a **GPU power issue**. The RTX 5070 is powered by a single **16-pin (12V-2x6)** connector, and the fix was making sure that cable was connected properly and fully seated. After that, performance was where it should be. It was a good reminder to check the hardware basics before blaming the software.
 
 ---
 
