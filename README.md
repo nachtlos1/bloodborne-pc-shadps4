@@ -24,12 +24,12 @@ Bloodborne is a PlayStation 4 exclusive with no official PC release. This projec
 | Component | Part |
 |---|---|
 | CPU | AMD Ryzen 7 7800X3D |
-| GPU | NVIDIA GeForce RTX 4070 |
+| GPU | MSI GeForce RTX 5070 Ventus 3X 12 GB |
 | RAM | 32 GB DDR5 6000 MHz |
 | Storage | 1 TB NVMe SSD |
 | OS | Windows 11 |
 
-(Full build details are in my [PC Build & Troubleshooting Guide](https://github.com/ArcSkt1/pc-build-troubleshooting-guide).)
+(Full build details are in my [PC Build & Troubleshooting Guide](https://github.com/nachtlos1/pc-build-troubleshooting-guide).)
 
 ---
 
@@ -93,7 +93,7 @@ Community patches (for example 60 FPS or resolution patches) can be enabled thro
 
 ## Troubleshooting
 
-I used the same method as my [PC troubleshooting guide](https://github.com/ArcSkt1/pc-build-troubleshooting-guide): change one thing at a time and check the log.
+I used the same method as my [PC troubleshooting guide](https://github.com/nachtlos1/pc-build-troubleshooting-guide): change one thing at a time and check the log.
 
 | Problem | Likely cause | Fix |
 |---|---|---|
@@ -112,10 +112,10 @@ I used the same method as my [PC troubleshooting guide](https://github.com/ArcSk
 | | |
 |---|---|
 | Game | Bloodborne, European release (`CUSA00900`), dumped from my own PS4 and disc |
-| PC | Ryzen 7 7800X3D, RTX 4070, 32 GB DDR5, Windows 11 |
+| PC | Ryzen 7 7800X3D, RTX 5070 12 GB, 32 GB DDR5, Windows 11 |
 | Frame rate | **30–60 FPS** |
 
-**Problem I solved:** performance was held back by a **GPU power issue**. I traced it back to the graphics card's power and fixed it, which brought performance to where it should be on an RTX 4070. It was a good reminder to check the hardware basics before blaming the software.
+**Problem I solved:** performance was held back by a **GPU power issue**. I traced it back to the graphics card's power and fixed it, which brought performance to where it should be on an RTX 5070. It was a good reminder to check the hardware basics before blaming the software.
 
 ---
 
@@ -129,4 +129,4 @@ I used the same method as my [PC troubleshooting guide](https://github.com/ArcSk
 
 ---
 
-*Author: [ArcSkt1](https://github.com/ArcSkt1) · CompTIA A+ · CompTIA Network+*
+*Author: [nachtlos1](https://github.com/nachtlos1) · CompTIA A+ · CompTIA Network+*
