@@ -1,0 +1,12 @@
+# Never commit copyrighted or console-specific files
+*.pkg
+*.sprx
+*.prx
+*.bin
+*.self
+*.elf
+CUSA*/
+games/
+sys_modules/
+keys/
+*.key
