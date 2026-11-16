@@ -27,7 +27,7 @@ Bloodborne is a PlayStation 4 exclusive with no official PC release. This projec
 | GPU | NVIDIA GeForce RTX 4070 |
 | RAM | 32 GB DDR5 6000 MHz |
 | Storage | 1 TB NVMe SSD |
-| OS | Windows |
+| OS | Windows 11 |
 
 (Full build details are in my [PC Build & Troubleshooting Guide](https://github.com/ArcSkt1/pc-build-troubleshooting-guide).)
 
@@ -55,7 +55,7 @@ Some PS4 system libraries can be loaded from **modules dumped from a real PS4**,
 | System modules (optional) | Dumped from **my own** PS4's `/system/common/lib/` folder |
 | Vulkan-capable GPU and up-to-date drivers | NVIDIA driver update |
 
-**Title IDs:** Bloodborne's folder name depends on region, for example `CUSA00900` (Europe) or `CUSA00207` (US).
+**Title IDs:** Bloodborne's folder name depends on region. My copy is the European version, `CUSA00900` (the US version is `CUSA00207`).
 
 ---
 
@@ -100,6 +100,7 @@ I used the same method as my [PC troubleshooting guide](https://github.com/ArcSk
 | shadPS4 won't open | Missing Visual C++ runtime | Install/repair the VC++ Redistributable |
 | Game doesn't appear in the list | Wrong folder structure or name | Check the folder is named after the Title ID and sits directly in the games directory |
 | Crash on launch | Outdated GPU driver or wrong game version | Update the driver; confirm the update is 1.09 |
+| Low or unstable FPS on strong hardware | GPU not getting full power (cables, power settings) | Check the GPU's power connectors and Windows/NVIDIA power settings. This was the fix on my PC |
 | Stutter in new areas | Shaders compiling for the first time | Normal on first visit; improves after |
 | Graphical glitches | Emulator bug or setting | Update shadPS4, try default settings, check the [compatibility list](https://github.com/shadps4-compatibility/shadps4-game-compatibility) |
 | Any other issue | Unknown | Read the shadPS4 log file (*Open Folder → Open Log Folder*) for the first error |
@@ -108,8 +109,13 @@ I used the same method as my [PC troubleshooting guide](https://github.com/ArcSk
 
 ## My results
 
-- Bloodborne running through shadPS4 on my main PC (Ryzen 7 7800X3D, RTX 4070, 32 GB DDR5).
-- Game and update dumped from my own PS4 and disc. No downloaded game files.
+| | |
+|---|---|
+| Game | Bloodborne, European release (`CUSA00900`), dumped from my own PS4 and disc |
+| PC | Ryzen 7 7800X3D, RTX 4070, 32 GB DDR5, Windows 11 |
+| Frame rate | **30–60 FPS** |
+
+**Problem I solved:** performance was held back by a **GPU power issue**. I traced it back to the graphics card's power and fixed it, which brought performance to where it should be on an RTX 4070. It was a good reminder to check the hardware basics before blaming the software.
 
 ---
 
